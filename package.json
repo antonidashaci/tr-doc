@@ -1,0 +1,40 @@
+{
+  "name": "tr-doc",
+  "version": "1.0.0",
+  "description": "Validate Turkish identifiers by their real checksums: TCKN, VKN, IBAN, licence plates, phone numbers. No dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "turkish",
+    "tckn",
+    "vkn",
+    "iban",
+    "validation",
+    "checksum",
+    "mod97",
+    "plate",
+    "phone",
+    "zero-dependency"
+  ],
+  "author": "antonidashaci",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonidashaci/tr-doc.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
